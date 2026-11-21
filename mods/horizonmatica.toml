@@ -48,16 +48,16 @@ tags = ["schematics", "litematica", "building", "printer", "material-list", "por
 key = "RWS+BRoCJslNCFapck3cbG2VFQcjlr1MUH5m3+CWA8zhJecoBoja7X94"
 
 [[versions]]
-version = "0.5.1"
+version = "0.5.2"
 published = "2026-11-21"
 game = "26.3"
-file = "horizonmatica-0.5.1.hmod"
-sha256 = "c129b3961cdc0a9a6058c7def583335f699a32cd7ae1829cfc9ba4a427d80c88"
+file = "horizonmatica-0.5.2.hmod"
+sha256 = "22450bd6cd41879127e9590f018ca0efcd5b77dd4c14da2b96db872f47ba7c51"
 signature = """
 untrusted comment: signature from minisign secret key
-RUS+BRoCJslNCF6muIlD8OgOHyw90oReXOoZ7KDd9Suvg/zERvnIKTqJjBb+iFel1JjHPPX8Mw29W7gpOQjYptZTKNelRffYEgc=
-trusted comment: timestamp:1795278902	file:dist/horizonmatica-0.5.1.hmod	hashed
-tVGSgUJ/dqhgUuuqJg5MmATvOMKXV88eAnbkshegt1jYxZ9itcSzA+1Hs2wu0naMn0xqiub++YMK2PGQWDAnBA==
+RUS+BRoCJslNCFrZVo6VwhhK7Q79f6Rd/+uUqk0Ixk4Vq+RpaX2Z7j09bpZsIVB/aX9Cf70l5h1JXgQhXkY1FUvvwDQXXP7kNww=
+trusted comment: timestamp:1795288889	file:dist/horizonmatica-0.5.2.hmod	hashed
+LlXcgKamM+RfLnEnFNTY3nJx/0s+3dArDIG8ijLLC2r0aYrorHcHWzQZEeVIL+Ju70XhuBIxHm6MFIhoQGPNCQ==
 """
 changelog = """
 ### Added
@@ -71,6 +71,7 @@ changelog = """
 - The menu (M) is a mod screen of its own instead of borrowing the Debug Options screen; **1–7** switch its tabs. Tabs take the width their names need, long button labels are cut with "..." and shown whole as a tooltip, and the Display tab and the credits scroll on small windows.
 - Settings are registered with Horizon and also shown on the mod's page in Options › Mods. Settings and remembered placements from 0.3 are carried over.
 - The package carries the MIT license text and names its license, home page and issue tracker.
+- Old MCEdit `.schematic` files: 1.12's numeric block ids are mapped by the game's own data fixer; the mod no longer bundles a copy of that table.
 
 ### Fixed
 - Opened a second time, the menu's origin and corner fields were empty until the placement moved.
